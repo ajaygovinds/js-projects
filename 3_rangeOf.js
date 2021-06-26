@@ -28,5 +28,14 @@ function getRange(start, end, step=1) {
  }
 }
 
+function printSum(rangeArray) {
+ let sum = 0;
+ for(let s of rangeArray) {
+  sum = s + sum;
+ }
+ console.log(sum);
+}
+
 getRange(start,end,step);
+printSum(rangeArray);
 
